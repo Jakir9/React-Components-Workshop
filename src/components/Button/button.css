@@ -1,0 +1,29 @@
+/* Make global variables for the colour rgb(65, 78, 197) */
+:root {
+    --purple: rgb(65, 78, 197);
+    --black: #000;
+}
+
+#btn-primary{
+    background-color: var(--purple);
+    color: black;
+    fill: var(--purple);
+    border: 2px solid var(--black);
+    border-radius: 10%;
+    font-size: 10px;
+    text-emphasis: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    /* make the button a square */
+    width: 10em;
+    height: 6em;
+    /* put buttons lower */
+    margin-top: -6em;
+    /* Make button on top of image */
+    position: relative;
+    z-index: 1;
+
+}
+

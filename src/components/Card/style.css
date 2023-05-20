@@ -1,0 +1,35 @@
+:root {
+    --purple: rgb(65, 78, 197);
+    --black: #000;
+}
+
+#title-main{
+    font-size: 18px;
+    font-weight: bold;
+     fill: var(--purple);
+      color: var(--purple);
+    margin: 0;
+    padding: 0;
+    background-color: var(--purple);
+
+     /* change the title background to var(--purple) */
+
+        
+}
+
+#text-main{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#image-main{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* make picture smaller */
+    
+}
